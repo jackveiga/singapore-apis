@@ -64,7 +64,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | **MRT API** | SMRT train stations live train arrival timings 💰 | `apiKey` | Yes | [View](https://mrtapi.com/) |
-| ArriveLah | Fast simple API for bus arrival times| `apiKey` | Yes | [View](https://github.com/cheeaun/arrivelah) |
+| **ArriveLah** | Fast simple API for bus arrival times| `apiKey` | Yes | [View](https://github.com/cheeaun/arrivelah) |
 | **Taxi Availability** | Locations of available taxis| `apiKey` | Yes | [View](https://developers.data.gov.sg/transport/taxi-availability) |
 | **Traffic Images** | Latest images from traffic cameras all around Singapore | `apiKey` | Yes | [View](https://developers.data.gov.sg/transport/traffic-images) |
 | **Car Park Availability** | Latest carpark availability| `apiKey` | Yes | [View](https://developers.data.gov.sg/data-gov-sg-apis/apis/get/transport/carpark-availability) |
