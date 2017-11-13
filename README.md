@@ -1,20 +1,38 @@
 # Singapore APIs 🇸🇬
 
-A collective list of some useful APIs in Singapore for use in web development.
+A collective list of some useful APIs in Singapore for developers to use.
 
 For information on contributing to this project please refer to the [contributing guide](.github/CONTRIBUTING.md).
 
 ## Index
 
 * [Education](#education)
+* [Environment](#environment)
 * [Finance](#finance)
 * [Transportation](#transportation)
+* [Others](#others)
 
 ### Education
 
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| NUSMods | Unofficial API for consolidating NUS module information. Modules are the NUS equivalent of courses | No | Yes | [View](https://github.com/nusmodifications/nusmods-api) |
+| NUSMods | Unofficial API for consolidating NUS module information. Modules are the NUS equivalent of courses | `apiKey` | Yes | [View](https://github.com/nusmodifications/nusmods-api) |
+
+### Environment
+
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Rainfalls | Rainfall readings across Singapore | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/rainfall) |
+| UV Index | Latest UV index information | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/uv-index) |
+| Wind speed | Wind speed readings across Singapore | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/wind-speed) |
+| Wind direction | Wind direction readings across Singapore | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/wind-direction) |
+| 2 Hours Weather Forecast | Latest weather forecast for the next 2 hours | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/2-hour-weather-forecast) |
+| 24 Hour Weather Forecast | Latest 24 hour weather forecast | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/24-hour-weather-forecast) |
+| 4 Day Weather Forecast | Latest weather forecast for the next 4 days | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/4-day-weather-forecast) |
+| Air Temperature | Air temperature readings across Singapore | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/air-temperature) |
+| Air Quality: PSI | Latest PSI readings | No | Yes | [View](https://developers.data.gov.sg/environment/air-temperature) |
+| Air Quality: PM2.5 | Latest PM2.5 information retrieved hourly from NEA | `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/pm25) |
+| Humidity | Relative humidity readings across Singapore| `apiKey` | Yes | [View](https://developers.data.gov.sg/environment/relative-humidity) |
 
 ### Finance
 
@@ -45,8 +63,12 @@ API | Description | Auth | HTTPS | Link |
 
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| MRT API | SMRT train stations live train arrival timings | No | Yes | [View](https://mrtapi.com/) |
-| ArriveLah | Fast simple API for bus arrival times| No | Yes | [View](https://github.com/cheeaun/arrivelah) |
-| Taxi Availability | Locations of available taxis| No | Yes | [View](https://developers.data.gov.sg/transport/taxi-availability) |
-| Traffic Images | Latest images from traffic cameras all around Singapore | No | Yes | [View](https://developers.data.gov.sg/transport/traffic-images) |
-| Car Park Availability | Latest carpark availability| No | Yes | [View](https://developers.data.gov.sg/data-gov-sg-apis/apis/get/transport/carpark-availability) |
+| MRT API | SMRT train stations live train arrival timings | `apiKey` | Yes | [View](https://mrtapi.com/) |
+| ArriveLah | Fast simple API for bus arrival times| `apiKey` | Yes | [View](https://github.com/cheeaun/arrivelah) |
+| Taxi Availability | Locations of available taxis| `apiKey` | Yes | [View](https://developers.data.gov.sg/transport/taxi-availability) |
+| Traffic Images | Latest images from traffic cameras all around Singapore | `apiKey` | Yes | [View](https://developers.data.gov.sg/transport/traffic-images) |
+| Car Park Availability | Latest carpark availability| `apiKey` | Yes | [View](https://developers.data.gov.sg/data-gov-sg-apis/apis/get/transport/carpark-availability) |
+
+### Others
+
+| One Map 2.0 | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [View](https://docs.onemap.sg/) |
