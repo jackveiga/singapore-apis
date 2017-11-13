@@ -1,20 +1,22 @@
 # Singapore APIs 🇸🇬
 
-A collective list of some useful APIs in Singapore for use in web development or data manipulation.
+A collective list of some useful APIs in Singapore for use in web development.
 
 For information on contributing to this project please refer to the [contributing guide](.github/CONTRIBUTING.md).
 
 ## Index
 
-* [Banks](#banks)
+* [Education](#education)
+* [Finance](#finance)
+* [Transportation](#transportation)
 
-## Web Development
+### Education
+
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| NUSMods | Unofficial API for consolidating NUS module information. Modules are the NUS equivalent of courses | No | Yes | [View](https://github.com/nusmodifications/nusmods-api) |
 
 ### Finance
-
-#### Banks
-
-##### DBS
 
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
@@ -27,11 +29,6 @@ API | Description | Auth | HTTPS | Link |
 | DBS GIRO | Facilitates GIRO arrangements with billing parties, including setting up, retrieving and managing automatic payments | `OAuth2` | Yes | [View](https://www.dbs.com/developers/#/documentation/23) |
 | DBS Payees | Provides payee management functionalities such as adding new payees, retrieving payee details, and retrieving registered payee lists | `OAuth2` | Yes | [View](https://www.dbs.com/developers/#/documentation/3) |
 | DBS Paylah |Allows partner merchants to make payment requests via PayLah! for online checkout | `OAuth2` | Yes | [View](https://www.dbs.com/developers/#/documentation/33) |
-
-##### OCBC
-
-API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
 | OCBC Authorization | Enable OCBC Customers to grant develop app access to OCBC transactional APIs | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Authorization) |
 | OCBC Current Accounts | Provides a list of OCBC Current Accounts | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Accounts_Current) |
 | OCBC Deposit Accounts | Provides a list of OCBC deposit accounts for everyday deposits and withdrawals | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Deposit_Accounts) |
@@ -44,7 +41,12 @@ API | Description | Auth | HTTPS | Link |
 | OCBC GIRO Sign Up | Faster bill payments with GIRO Sign Up API | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Transactional_DirectDebitAuthorization) |
 | OCBC Pay Anyone | Send money securely from your OCBC deposit account to anyone | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Transactional_PayAnyone) |
 
+### Transportation
 
-
-
-## Data
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| MRT API | SMRT train stations live train arrival timings | No | Yes | [View](https://mrtapi.com/) |
+| ArriveLah | Fast simple API for bus arrival times| No | Yes | [View](https://github.com/cheeaun/arrivelah) |
+| Taxi Availability | Locations of available taxis| No | Yes | [View](https://developers.data.gov.sg/transport/taxi-availability) |
+| Traffic Images | Latest images from traffic cameras all around Singapore | No | Yes | [View](https://developers.data.gov.sg/transport/traffic-images) |
+| Car Park Availability | Latest carpark availability| No | Yes | [View](https://developers.data.gov.sg/data-gov-sg-apis/apis/get/transport/carpark-availability) |
