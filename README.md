@@ -71,4 +71,9 @@ API | Description | Auth | HTTPS | Link |
 
 ### Others
 
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| IRAS | Organization search, stamp duty calculator, GST register.. | `apiKey` | Yes | [View](https://apiservices.iras.gov.sg/iras/devportal/product) |
 | One Map 2.0 | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [View](https://docs.onemap.sg/) |
+
+
