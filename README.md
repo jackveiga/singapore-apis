@@ -75,6 +75,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | **IRAS** | Organization search, stamp duty calculator, GST register.. | `apiKey` | Yes | [View](https://apiservices.iras.gov.sg/iras/devportal/product) |
 | **One Map 2.0** | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [View](https://docs.onemap.sg/) |
+| **Calendarific** | Allows developers to fetch dates of national, bank, public holidays and observances in their applications | `apiKey` | Yes | [View](https://calendarific.com) |
 
 ### Contributions
 
