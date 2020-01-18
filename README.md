@@ -58,6 +58,7 @@ API | Description | Auth | HTTPS | Link |
 | **OCBC Account Transaction History** | Provides a list of customer account transaction history | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Transactional_AccountTransactionHistory) |
 | **OCBC GIRO Sign Up** | Faster bill payments with GIRO Sign Up API | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Transactional_DirectDebitAuthorization) |
 | **OCBC Pay Anyone** | Send money securely from your OCBC deposit account to anyone | `OAuth2` | Yes | [View](https://api.ocbc.com/store/site/pages/api_documentation.jag?name=Transactional_PayAnyone) |
+| **CurrencyScoop** | Worldwide Currency Rates and Conversion API | `api_key` | Yes | [View](https://currencyscoop.com/api-documentation) |
 
 ### Transportation
 
