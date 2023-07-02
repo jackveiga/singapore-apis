@@ -16,7 +16,7 @@ This is an attempt to list all useful APIs available in Singapore for developers
 
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| **NUSMods** | API for consolidating NUS module information. Modules are the NUS equivalent of courses | No | Yes | [View](https://api.nusmods.com/v2/) |
+| **NUSMods** | API for consolidating NUS course information. | No | Yes | [View](https://api.nusmods.com/v2/) |
 
 ### Environment
 
